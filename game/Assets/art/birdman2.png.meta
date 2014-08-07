@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: 75b1c342679a44956931ef82390fa4ea
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: birdman2
+    21300002: birdman2_0
+    21300004: birdman2_1
+    21300006: birdman2_2
+    21300008: birdman2_3
+    21300010: birdman2_4
+    21300012: birdman2_5
+    21300014: birdman2_6
+    21300016: birdman2_7
+    21300018: birdman2_8
+    21300020: birdman2_11
+    21300022: birdman2_10
+    21300024: birdman2_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: birdman2_0
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 330
+        width: 304
+        height: 558
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdman2_1
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 318
+        width: 299
+        height: 570
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdman2_2
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 319
+        width: 400
+        height: 559
+      alignment: 9
+      pivot: {x: .409999996, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdman2_3
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 313
+        width: 298
+        height: 569
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdman2_4
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 324
+        width: 301
+        height: 554
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdman2_5
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 305
+        width: 363
+        height: 573
+      alignment: 9
+      pivot: {x: .439999998, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdman2_6
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 958
+        width: 375
+        height: 559
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdman2_7
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1069
+        width: 383
+        height: 486
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdman2_8
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1098
+        width: 375
+        height: 547
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdman2_11
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1132
+        width: 540
+        height: 621
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdman2_10
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 1080
+        width: 927
+        height: 838
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: birdman2_11
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1892
+        width: 349
+        height: 615
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
