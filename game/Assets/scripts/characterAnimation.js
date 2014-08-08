@@ -46,20 +46,24 @@ function FixedUpdate () {
 
 		}
 
-	} else {
-		// mario is in the air
+	} else if(rigidbody2D.velocity.x == 0) {
+		// mario is idle
+		animatorComponent.SetInteger("state", 3);
 
+	} else {
+		//mario is in the air
 		animatorComponent.SetInteger("state", 1);
 	}
+	
 
 
 
 
-	if ( transform.position.y < -3 ) {
+	if ( transform.position.y < -7 ) {
 		// fell below world
 
-		//transform.position.x = spawn.transform.position.x;
-		//transform.position.y = spawn.transform.position.y;
+		transform.position.x = spawn.transform.position.x;
+		transform.position.y = spawn.transform.position.y;
 
 		transform.position = spawn.transform.position;
 		

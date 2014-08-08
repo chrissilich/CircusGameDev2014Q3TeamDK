@@ -1,8 +1,9 @@
 fileFormatVersion: 2
-guid: 8a8f3e7cd4bf94855a8e01593fa108ed
+guid: 976e85e61d36e495fa5bff4f49e38a15
 TextureImporter:
   fileIDToRecycleName:
-    21300000: ground-hill
+    21300000: ground-hill 1
+    21300002: ground-hill
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -26,9 +27,9 @@ TextureImporter:
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
