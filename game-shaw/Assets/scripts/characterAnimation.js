@@ -29,7 +29,7 @@ function FixedUpdate () {
 
 	Debug.DrawRay(startOfRay, -Vector2.up, Color.green, 1);
 
-	var hit:RaycastHit2D = Physics2D.Raycast(startOfRay, -Vector2.up, 0.01);
+	var hit:RaycastHit2D = Physics2D.Raycast(startOfRay, -Vector2.up, 1);
 
 
 	var animatorComponent:Animator = this.GetComponent("Animator");
