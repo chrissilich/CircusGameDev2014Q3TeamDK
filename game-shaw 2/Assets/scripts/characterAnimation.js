@@ -48,7 +48,7 @@ function FixedUpdate () {
 
 	} else if(rigidbody2D.velocity.x == 0) {
 		// mario is idle
-		animatorComponent.SetInteger("state", 3);
+		animatorComponent.SetInteger("state", 2);
 
 	} else {
 		//mario is in the air
