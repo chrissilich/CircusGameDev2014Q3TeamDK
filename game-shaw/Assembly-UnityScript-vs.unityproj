@@ -49,6 +49,7 @@
      <Compile Include="Assets\scripts\addGemsToScreen.js" />
      <Compile Include="Assets\scripts\characterAnimation.js" />
      <Compile Include="Assets\scripts\rocks.js" />
+     <Compile Include="Assets\switchDirection.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
