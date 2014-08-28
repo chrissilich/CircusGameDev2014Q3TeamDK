@@ -11,3 +11,7 @@
 /game/*.userprefs
 /game/*.pidb
 /game/*.booproj
+
+game-shaw/game-shaw-csharp.sln
+
+game-shaw/game-shaw.sln
