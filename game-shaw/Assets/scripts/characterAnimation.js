@@ -59,15 +59,12 @@ function FixedUpdate () {
 
 
 
-	if ( transform.position.y < -7 ) {
+	// if ( transform.position.y < -7 ) {
 		// fell below world
 
-		transform.position.x = spawn.transform.position.x;
-		transform.position.y = spawn.transform.position.y;
-
-		transform.position = spawn.transform.position;
 		
-	}
+		
+	// }
 }
 
 function Hit () {
@@ -75,7 +72,12 @@ function Hit () {
 	health -= 1;
 	if( health == 0) {
 		Debug.Log("You died!");
-		Destroy(gameObject);
+		// Destroy(gameObject);
+
+		transform.position.x = spawn.transform.position.x;
+		transform.position.y = spawn.transform.position.y;
+
+		transform.position = spawn.transform.position;
 	}
 }
 
