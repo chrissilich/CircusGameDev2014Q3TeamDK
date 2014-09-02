@@ -1,23 +1,19 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-Project("{E103F23F-18FD-D55A-E4A7-000E038939D3}") = "game-shaw", "Assembly-UnityScript.unityproj", "{12AD0107-6EA1-7FC1-DE75-7783DC26CD41}"
-EndProject
+
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{12AD0107-6EA1-7FC1-DE75-7783DC26CD41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{12AD0107-6EA1-7FC1-DE75-7783DC26CD41}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{12AD0107-6EA1-7FC1-DE75-7783DC26CD41}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{12AD0107-6EA1-7FC1-DE75-7783DC26CD41}.Release|Any CPU.Build.0 = Release|Any CPU
+
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																					GlobalSection(MonoDevelopProperties) = preSolution
+																							GlobalSection(MonoDevelopProperties) = preSolution
 =======
 		GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> FETCH_HEAD

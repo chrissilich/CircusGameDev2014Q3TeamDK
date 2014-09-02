@@ -62,8 +62,6 @@ function FixedUpdate () {
 	// if ( transform.position.y < -7 ) {
 		// fell below world
 
-		
-		
 	// }
 }
 
@@ -72,11 +70,17 @@ function Hit () {
 	health -= 1;
 	if( health == 0) {
 		Debug.Log("You died!");
-		// Destroy(gameObject);
-
-		transform.position.x = spawn.transform.position.x;
-		transform.position.y = spawn.transform.position.y;
-
+		
+		//ignor this for right now 
+//		yield WaitForSeconds (5);
+		
+		//reloads the scene when the character dies. May not work with 
+		//multiple spawn points have to test it out
+		
+		Application.LoadLevel(Application.loadedLevel);
+		
+		
+			
 		transform.position = spawn.transform.position;
 	}
 }
@@ -87,44 +91,5 @@ function OnCollisionEnter2D(collision : Collision2D) {
 		Hit();
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
