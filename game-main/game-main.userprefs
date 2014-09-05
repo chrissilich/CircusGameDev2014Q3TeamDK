@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/addGemsToScreen.js">
+    <Files>
+      <File FileName="Assets/scripts/addGemsToScreen.js" Line="9" Column="31" />
+      <File FileName="Assets/scripts/characterAnimation.js" Line="1" Column="1" />
+      <File FileName="Assets/scripts/chasingEnemy.js" Line="1" Column="1" />
+      <File FileName="Assets/scripts/switchDirection.js" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
