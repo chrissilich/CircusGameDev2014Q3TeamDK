@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{12AD0107-6EA1-7FC1-DE75-7783DC26CD41}</ProjectGuid>
+	<ProjectGuid>{F94FA091-68E4-CE38-B870-D85AD4C3A79B}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,9 +46,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\scripts\EverlastingScript.js" />
+     <Compile Include="Assets\scripts\Singleton.js" />
+     <Compile Include="Assets\scripts\SpawnController.js" />
      <Compile Include="Assets\scripts\addGemsToScreen.js" />
+     <Compile Include="Assets\scripts\cameraShake.js" />
      <Compile Include="Assets\scripts\characterAnimation.js" />
      <Compile Include="Assets\scripts\chasingEnemy.js" />
+     <Compile Include="Assets\scripts\fadeToBlackScript.js" />
      <Compile Include="Assets\scripts\rocks.js" />
      <Compile Include="Assets\scripts\switchDirection.js" />
   </ItemGroup>

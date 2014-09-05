@@ -4,13 +4,45 @@ var walkSpeed:int = 5;
 var jumpHeight:int = 5;
 var health : int = 1;
 
-var spawn:GameObject;
+var mainCamera:GameObject;
+var shakeScript:cameraShake;
+
+var et:GameObject;
+var es:EverlastingScript;
+
+var fadeToBlack:GameObject;
+//var fadeScript:fadeToBlackScript;
 
 private var jumpKeyReleased:boolean = true;
 
 
 function Start () {
-	transform.position = spawn.transform.position;
+	
+	et = GameObject.Find("_EverlastingThing");
+	es = et.GetComponent("EverlastingScript");
+
+	
+	mainCamera = GameObject.Find("Main Camera");
+	shakeScript = mainCamera.GetComponent("cameraShake");
+	
+	fadeToBlack = GameObject.Find("fadeToBlack");
+	
+//	fadeScript = fadeToBlack.GetComponent("fadeToBlackScript");
+	
+	var allSpawns = GameObject.FindGameObjectsWithTag("Respawn");
+	for (var s in allSpawns) {
+		var spawnScript:SpawnController = s.GetComponent("SpawnController");
+		Debug.Log("found spawn point with ID: " + spawnScript.spawnID);
+		if (es.spawnAt == spawnScript.spawnID) {
+			transform.position = s.transform.position;
+		}
+	}
+	
+	//transform.position = es.spawnAt.transform.position;
+	
+	
+	shakeScript.enabled = false;
+
 }
 
 function Update () {
@@ -56,32 +88,22 @@ function FixedUpdate () {
 	}
 	
 
-
-
-
-	// if ( transform.position.y < -7 ) {
-		// fell below world
-
-	// }
 }
 
 function Hit () {
 	//remove one hit point and check if we are dead 
 	health -= 1;
 	if( health == 0) {
-		Debug.Log("You died!");
-		
-		//ignor this for right now 
-//		yield WaitForSeconds (5);
-		
-		//reloads the scene when the character dies. May not work with 
-		//multiple spawn points have to test it out
+//		Debug.Log("You died!");
+	
+		shakeScript.enabled = true;
+		fadeToBlack.SendMessage("MakeSceneEnd");
+		yield WaitForSeconds (1);
 		
 		Application.LoadLevel(Application.loadedLevel);
 		
-		
 			
-		transform.position = spawn.transform.position;
+		//transform.position = spawn.transform.position;
 	}
 }
 
