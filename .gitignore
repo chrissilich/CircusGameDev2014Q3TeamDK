@@ -12,8 +12,12 @@
 /game/*.pidb
 /game/*.booproj
 
-game-shaw/game-shaw-csharp.sln
+/game-main/*.csproj
+/game-main/*.unityproj
+/game-main/*.sln
+/game-main/*.suo
+/game-main/*.user
+/game-main/*.userprefs
+/game-main/*.pidb
+/game-main/*.booproj
 
-game-shaw/game-shaw.sln
-
-game-shaw/game-shaw-csharp.sln
